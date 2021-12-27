@@ -1,0 +1,12 @@
+ <% for( const categorie of locals.categorii) { %>
+      <a href="/carti?tip=<%-categorie.categ%>">
+        <div class="block1">
+          <div class="sageata">
+            <div class="sageata_text">&rarr;</div>
+          </div>
+          <div>
+            <%-categorie.categ%>
+          </div>
+        </div>
+      </a>
+      <% } %>
